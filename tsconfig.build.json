@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["dist/src"],
+  "exclude": [],
+  "compilerOptions": {
+    "rootDir": "./dist/src",
+    "paths": {
+      "March-12-Project/*": ["dist/src/*"],
+      "March-12-Project": ["dist/src/index.ts"],
+    },
+    "noEmit": false,
+    "declaration": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "pretty": true,
+    "sourceMap": true
+  }
+}
