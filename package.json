@@ -1,6 +1,6 @@
 {
   "name": "March-12-Project",
-  "version": "0.0.1-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "The official TypeScript library for the March 12 Project API",
   "author": "March 12 Project <apiteam@swagger.io>",
   "types": "dist/index.d.ts",
